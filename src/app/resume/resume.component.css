@@ -1,0 +1,23 @@
+.items-center-resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+.resume-page-items {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.title-2-download {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+

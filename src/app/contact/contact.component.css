@@ -1,0 +1,33 @@
+.items-contact-centre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.contact-items {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    width: 50%;
+
+    border: 2px solid red;
+}
+
+.contact-items {
+    background-color: antiquewhite;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.no-resize {
+    resize: none;
+}
+
+

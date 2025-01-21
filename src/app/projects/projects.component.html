@@ -1,0 +1,26 @@
+<div class="projects-items-centre">
+    <div class="projects-items">
+        <h1 class="gradient-text">Projects</h1>
+
+        <div *ngFor="let project of projects" class="card border-0 mb-3" style="width: 60%;">
+            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                <div class="card-body p-0">
+                    <div class="d-flex">
+                        <div class="p-5">
+                            <h2 class="fw-bolder">{{ project.title }}</h2>
+                            <p>{{ project.projectSummury }}</p>
+                            <p>{{ project.projectSummuryTry }}</p>
+                        </div>
+                        <a [href]="project.link" target="_blank">
+                            <img
+                                class="img-fluid"
+                                [src]="project.imageUrl"
+                                alt="..."
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
