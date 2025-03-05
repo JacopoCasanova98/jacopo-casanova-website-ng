@@ -21,3 +21,14 @@
     gap: 3rem;
 }
 
+
+@media screen and (max-width: 768px) {
+    
+    .title-2-download {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 3rem;
+    }
+
+}

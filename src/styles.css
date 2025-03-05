@@ -16,8 +16,20 @@
     animation: gradient-animation 10s ease infinite;
 }
 
+.card-width {
+  width: 60%;
+}
+
 @keyframes gradient-animation {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
+}
+
+@media screen and (max-width: 768px) {
+    
+  .card-width {
+      width: 100%;
+  }
+
 }

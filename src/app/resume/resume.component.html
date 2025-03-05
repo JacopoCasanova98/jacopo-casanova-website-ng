@@ -2,36 +2,30 @@
 
     <div class="resume-page-items">
 
-        <h1>Resume</h1>
+        <h1 class="display-3 fw-bolder gradient-text">Resume</h1>
 
         
         <div class="title-2-download">
-
-            <h3 class="gradient-text">Experience</h3>
-
             <a href="assets/pdf/CV-di-Jacopo-Casanova.pdf" class="btn btn-primary" download>Download Resume</a>
-
         </div>
 
 
-<div class="list-experiences-div" *ngFor="let resume of resumes" class="card border-0 mb-3" style="width: 60%;">
+    <div class="card-width card border-0 mb-3" *ngFor="let resume of resumes">
 
-    <div class="card shadow border-0 rounded-4 mb-5">
-        <div class="card-body p-5">
-            <div class="row align-items-center gx-5">
-                <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                    <div class="bg-light p-4 rounded-4">
-                        <div class="text-primary fw-bolder mb-2">{{ resume.title1 }}</div>
-                        <div class="small fw-bolder">{{ resume.title2 }}</div>
-                        <div class="small text-muted">{{ resume.location }}</div>
+        <div class="card shadow border-0 rounded-4 mb-5">
+            <div class="card-body p-5">
+                <div class="row align-items-center gx-5">
+                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                        <div class="bg-light p-4 rounded-4">
+                            <div class="text-primary fw-bolder mb-2">{{ resume.title1 }}</div>
+                            <div class="small fw-bolder">{{ resume.title2 }}</div>
+                            <div class="small text-muted">{{ resume.location }}</div>
+                        </div>
                     </div>
+                    <div class="col-lg-8 text-center"><div>{{ resume.description }}</div></div>
                 </div>
-                <div class="col-lg-8"><div>{{ resume.description }}</div></div>
             </div>
         </div>
     </div>
-</div>
-
-
 
 </div>
