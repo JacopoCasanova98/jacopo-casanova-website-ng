@@ -10,7 +10,12 @@ export class ResumeService {
  
 resumes: ResumeInterface[] = [
 
-
+  {
+    title1: "2025 - Oracle Certified Associate",
+    title2: "Java SE",
+    location: "",
+    description: "Official certification validating core Java SE knowledge, including object-oriented programming, data types, control structures, and exception handling. Demonstrates strong foundation in Java programming and code reliability."
+  },  
   {
     title1: "2024 - Open Gate",
     title2: "Full Stack Developer",
