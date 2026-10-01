@@ -11,6 +11,12 @@ export class ResumeService {
 resumes: ResumeInterface[] = [
 
   {
+    title1: "2026 - AWS SAA-C03",
+    title2: "AWS Certified Solutions Architect – Associate",
+    location: "",
+    description: "Official AWS certification validating knowledge of designing secure, resilient, high-performing, and cost-optimized architectures on Amazon Web Services. Covers core AWS services, networking, storage, databases, security, scalability, high availability, and cloud architecture best practices."
+  },
+  {
     title1: "2025 - Oracle Certified Associate",
     title2: "Java SE",
     location: "",

@@ -10,6 +10,13 @@ export class ProjectsService {
 
   projects: ProjectsInterface[] = [
     {
+      imageUrl: "assets/images/taskflow.png",
+      title: "TaskFlow",
+      projectSummury: "A full-stack task management application developed with Spring Boot, Angular and PostgreSQL, featuring a responsive user interface and a deployed production-ready architecture.",      
+      projectSummuryTry: "Click the image and Try it! 👉",
+      link: "https://taskflow-demo-frontend-bod0.onrender.com/"
+    },
+    {
       imageUrl: "assets/images/air-quality-index.png",
       title: "Air Quality Index",
       projectSummury: "A web application that monitors and displays real-time air quality data for various cities, helping users stay informed about environmental conditions.",
